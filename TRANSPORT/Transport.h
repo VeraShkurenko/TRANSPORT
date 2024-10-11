@@ -13,7 +13,6 @@ protected:
 
 public:
     Transport(const string& n, int spd, float wgt);
-    virtual ~Transport() = default;
 
     virtual void Move();
     virtual void Stop();
