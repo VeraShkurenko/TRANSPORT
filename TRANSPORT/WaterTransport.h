@@ -10,6 +10,6 @@ protected:
 
 public:
     WaterTransport(const string& n, int spd, float wgt, const string& cap);
-    void Sail();
-    void Dock();
+    virtual void Sail();
+    virtual void Dock();
 };
